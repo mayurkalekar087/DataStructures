@@ -8,7 +8,7 @@ namespace DataStructures
         {
             Console.WriteLine("Hello World!");
             LinkedList List = new LinkedList();
-            List.Add(36);
+            List.Add(56);
             List.Add(30);
             List.Add(70);
             //List.Display();
