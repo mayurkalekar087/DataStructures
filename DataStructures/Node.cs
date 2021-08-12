@@ -12,7 +12,5 @@ namespace DataStructures
         {
             this.data = data;
         }
-
-
-    }
+     }
 }

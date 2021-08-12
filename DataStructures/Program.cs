@@ -11,7 +11,7 @@ namespace DataStructures
             List.Add(36);
             List.Add(30);
             List.Add(70);
-            ////List.Display();
+            //List.Display();
         }
     }
 }

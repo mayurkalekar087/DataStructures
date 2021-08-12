@@ -40,7 +40,7 @@ namespace DataStructures
                 temp = temp.next;
             }
            
-            }
         }
     }
+}
 
