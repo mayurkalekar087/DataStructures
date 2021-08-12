@@ -26,22 +26,21 @@ namespace DataStructures
             }
             Console.WriteLine("{0} inserted into linked", node.data);
         }
-        //internal void Display()
-        //{
-        //    Node temp = this.head;
-        //    if (temp == null)
-        //    {
-        //        Console.WriteLine("Linked is empty");
-        //        return;
-        //    }
-        //    while (temp != null)
-        //    {
-        //        Console.WriteLine(temp.data + " ");
-        //        temp = temp.next;
-        //    }
-           
+        internal void Display()
+        {
+            Node temp = this.head;
+            if (temp == null)
+            {
+                Console.WriteLine("Linked is empty");
+                return;
+            }
+            while (temp != null)
+            {
+                Console.WriteLine(temp.data + " ");
+                temp = temp.next;
+            }
 
+
+        }
     }
 }
-
-
