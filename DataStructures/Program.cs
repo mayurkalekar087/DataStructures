@@ -6,6 +6,7 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             LinkedList linkedlist = new LinkedList();
             linkedlist.Add(56);
             //linkedlist.Add(30);
@@ -13,6 +14,13 @@ namespace DataStructures
             linkedlist.InsertAtParticularPosition(2, 30);
             linkedlist.Display();
             Console.ReadKey();
+=======
+            LinkedList List = new LinkedList();
+            List.Add(56);
+            List.Add(30);
+            List.Add(70);
+            
+>>>>>>> 02fd88e1e495f8ccb20ceb21dc246d883d8072d1
         }
     }
 }
