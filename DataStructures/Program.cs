@@ -17,6 +17,7 @@ namespace DataStructures
             //linkedlist.RemoveLastNode();
             linkedlist.search(30);
             linkedlist.InsertAtParticularPosition(3, 40);
+            linkedlist.Delete(40);
             linkedlist.Display();
             Console.ReadKey();
         }
