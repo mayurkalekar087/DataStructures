@@ -10,10 +10,13 @@ namespace DataStructures
             linkedlist.Add(56);
             linkedlist.Add(30);
             linkedlist.Add(70);
-            linkedlist.search(70);
+            linkedlist.Display();
+            Console.WriteLine("--------------");
+
             //linkedlist.RemoveFirstNode();
             //linkedlist.RemoveLastNode();
-            //linkedlist.InsertAtParticularPosition(2, 30);
+            linkedlist.search(30);
+            linkedlist.InsertAtParticularPosition(3, 40);
             linkedlist.Display();
             Console.ReadKey();
         }

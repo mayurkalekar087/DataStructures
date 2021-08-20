@@ -98,17 +98,21 @@ namespace DataStructures
             NewNode.next = null;
             return head;
         }
-        internal Node search(int value)
+        public bool search(int value)
         {
-            while (this.head != null)
+            int index = 0;
+            Node temp = head;
+            while (temp != null)
             {
-                if (this.head.data == value)
+                index++;
+                if (temp.data.Equals(value))
                 {
-                    return this.head;
+                    Console.WriteLine(value + " is Found At Index = " + index);
+                    return true;
                 }
-                this.head = this.head.next;
+                temp = temp.next;
             }
-            return null;
+            return false;
         }
     }
 }
